@@ -1,0 +1,7 @@
+newmtl silver_steel
+Ka 0.105 0.115 0.125
+Kd 0.285 0.305 0.325
+Ks 0.550 0.580 0.620
+Ns 96.0
+map_Kd ../materials/textures/ibuilding49_dark_steel.png
+illum 2

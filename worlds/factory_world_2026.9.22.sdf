@@ -1,0 +1,182 @@
+<sdf version='1.10'>
+  <world name='empty'>
+    <physics name='1ms' type='ignored'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+      <dart>
+        <collision_detector>bullet</collision_detector>
+      </dart>
+    </physics>
+    <plugin name='gz::sim::systems::Physics' filename='gz-sim-physics-system'/>
+    <plugin name='gz::sim::systems::UserCommands' filename='gz-sim-user-commands-system'/>
+    <plugin name='gz::sim::systems::SceneBroadcaster' filename='gz-sim-scene-broadcaster-system'/>
+    <plugin name='gz::sim::systems::Contact' filename='gz-sim-contact-system'/>
+    <plugin name='gz::sim::systems::Sensors' filename='gz-sim-sensors-system'>
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin name='gz::sim::systems::Imu' filename='gz-sim-imu-system'/>
+    <plugin name='rmagine_gazebo_plugins::RmagineEmbreeMapSystem'
+            filename='librmagine_embree_map_system.so'>
+      <update>
+        <rate_limit>30</rate_limit>
+        <delta_trans>0.001</delta_trans>
+        <delta_rot>0.001</delta_rot>
+      </update>
+    </plugin>
+    <!-- This world declares system plugins explicitly, so keep the PX4
+         sensor systems that would otherwise come from server.config. -->
+    <plugin name='gz::sim::systems::AirPressure' filename='gz-sim-air-pressure-system'/>
+    <plugin name='gz::sim::systems::AirSpeed' filename='gz-sim-air-speed-system'/>
+    <plugin name='gz::sim::systems::ApplyLinkWrench' filename='gz-sim-apply-link-wrench-system'/>
+    <plugin name='gz::sim::systems::NavSat' filename='gz-sim-navsat-system'/>
+    <plugin name='gz::sim::systems::Magnetometer' filename='gz-sim-magnetometer-system'/>
+    <plugin name='custom::OpticalFlowSystem' filename='libOpticalFlowSystem.so'/>
+    <plugin name='custom::GstCameraSystem' filename='libGstCameraSystem.so'>
+      <useCuda>false</useCuda>
+    </plugin>
+    <gravity>0 0 -9.8000000000000007</gravity>
+    <magnetic_field>5.5644999999999998e-06 2.2875799999999999e-05 -4.2388400000000002e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <world_frame_orientation>ENU</world_frame_orientation>
+      <latitude_deg>47.397971057728974</latitude_deg>
+      <longitude_deg>8.546163739800146</longitude_deg>
+      <elevation>0</elevation>
+    </spherical_coordinates>
+    <scene>
+      <ambient>0.360000014 0.379999995 0.419999987 1</ambient>
+      <background>0.560000002 0.680000007 0.819999993 1</background>
+      <shadows>true</shadows>
+    </scene>
+    <model name='ground_plane'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode/>
+            </friction>
+            <bounce/>
+            <contact/>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.800000012 0.800000012 0.800000012 1</ambient>
+            <diffuse>0.800000012 0.800000012 0.800000012 1</diffuse>
+            <specular>0.800000012 0.800000012 0.800000012 1</specular>
+          </material>
+        </visual>
+        <pose>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+        </inertial>
+        <enable_wind>false</enable_wind>
+      </link>
+      <pose>0 0 0 0 0 0</pose>
+      <self_collide>false</self_collide>
+    </model>
+    <include>
+      <uri>model://wse11</uri>
+      <name>wse11</name>
+      <pose>-3.6979799270629883 -0.86542397737503052 0 0 0 -0.0022545301106058836</pose>
+    </include>
+    <include>
+      <uri>model://wse11</uri>
+      <name>wse11_0</name>
+      <pose>13.499300003051758 -0.88197904825210571 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://warehouse_0</uri>
+      <name>warehouse_0</name>
+      <pose>3.9047400951385498 -16.213399887084961 0 0 0 -3.1352549580269322</pose>
+    </include>
+    <include>
+      <uri>model://warehouse_0</uri>
+      <name>warehouse_0_0</name>
+      <pose>21.744400024414062 -16.106399536132812 0 0 0 -3.1272500003719208</pose>
+    </include>
+    <include>
+      <uri>model://ibuilding49</uri>
+      <name>ibuilding49</name>
+      <pose>9.1473808288574219 14.278069496154785 1.716413180474774e-06 -4.2061601561011398e-07 8.8645703834974253e-10 0.00092244501955802223</pose>
+    </include>
+    <include>
+      <uri>model://nitrogen_tank</uri>
+      <name>nitrogen_tank</name>
+      <pose>26.713600158691406 -1.1428500413894525 3.9968028886505635e-15 -6.5806782047386959e-16 -9.2611226507715016e-16 -2.3337549539528593</pose>
+    </include>
+    <include>
+      <uri>model://nitrogen_tank</uri>
+      <name>nitrogen_tank_0</name>
+      <pose>26.886600494384766 6.8833098411560076 2.886579864025407e-15 -8.638228738580471e-16 -1.5613649458103261e-15 -2.3207822442915589</pose>
+    </include>
+    <include>
+      <uri>model://nitrogen_tank</uri>
+      <name>nitrogen_tank_1</name>
+      <pose>26.860807418823242 13.994253158569334 2.6423307986078726e-14 -2.1622195436700175e-15 -1.9687596580769126e-15 -2.3264800054340848</pose>
+    </include>
+    <include>
+      <uri>model://industrial_yard_surface</uri>
+      <name>industrial_yard_surface</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://industrial_yard_props</uri>
+      <name>industrial_yard_props</name>
+      <pose>3.5527136788005009e-15 0 0 0 0 1.6653345369377348e-16</pose>
+    </include>
+    <include>
+      <uri>model://modular_pipe_combined_02</uri>
+      <name>modular_pipe_combined_02</name>
+      <pose>9.1557302474975586 15.522629737854004 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://modular_pipe_combined_02</uri>
+      <name>modular_pipe_combined_02_0</name>
+      <pose>9.147465705871582 12.529664993286133 0 0 0 -3.1393900000741937</pose>
+    </include>
+    <light name='sun' type='directional'>
+      <pose>0 0 10 0 0 0</pose>
+      <cast_shadows>true</cast_shadows>
+      <intensity>1</intensity>
+      <direction>-0.5 0.10000000000000001 -0.90000000000000002</direction>
+      <diffuse>0.800000012 0.800000012 0.800000012 1</diffuse>
+      <specular>0.200000003 0.200000003 0.200000003 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <linear>0.01</linear>
+        <constant>0.90000000000000002</constant>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+  </world>
+</sdf>

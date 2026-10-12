@@ -1,0 +1,21 @@
+{
+  "model": "modular_pipe_combined_02",
+  "common_pipe_axis_z_m": 1.4344,
+  "semantic_labels": {
+    "10": "pipe",
+    "20": "valve",
+    "30": "support",
+    "50": "elbow"
+  },
+  "instances": [
+    {"instance_id": 1, "model": "part_01_left_elbow", "link": "link", "mesh": "meshes/part_01_left_elbow.obj", "semantic_label": 50},
+    {"instance_id": 2, "model": "part_02_coupling_pipe", "link": "link", "mesh": "meshes/part_02_coupling_pipe.obj", "semantic_label": 10},
+    {"instance_id": 3, "model": "part_03_valve", "link": "link", "mesh": "meshes/part_03_valve.obj", "semantic_label": 20},
+    {"instance_id": 4, "model": "part_04_straight_pipe", "link": "link", "mesh": "meshes/part_04_straight_pipe.obj", "semantic_label": 10},
+    {"instance_id": 5, "model": "part_05_right_elbow", "link": "link", "mesh": "meshes/part_05_right_elbow.obj", "semantic_label": 50},
+    {"instance_id": 6, "model": "support_01", "link": "link", "mesh": "meshes/support_01.obj", "semantic_label": 30},
+    {"instance_id": 7, "model": "support_02", "link": "link", "mesh": "meshes/support_02.obj", "semantic_label": 30},
+    {"instance_id": 8, "model": "support_03", "link": "link", "mesh": "meshes/support_03.obj", "semantic_label": 30},
+    {"instance_id": 9, "model": "support_04", "link": "link", "mesh": "meshes/support_04.obj", "semantic_label": 30}
+  ]
+}

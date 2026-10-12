@@ -1,0 +1,23 @@
+newmtl lamp_mount
+Ka 0.025 0.030 0.035
+Kd 0.075 0.085 0.095
+Ks 0.350 0.380 0.420
+Ns 80.0
+map_Kd ../materials/textures/ibuilding49_dark_lamp.png
+illum 2
+
+newmtl lamp_shade
+Ka 0.060 0.065 0.070
+Kd 0.180 0.195 0.210
+Ks 0.480 0.500 0.540
+Ns 96.0
+map_Kd ../materials/textures/ibuilding49_dark_lamp.png
+illum 2
+
+newmtl lamp_emitter
+Ka 0.350 0.280 0.170
+Kd 0.720 0.590 0.360
+Ke 1.000 0.780 0.420
+Ks 0.100 0.100 0.100
+Ns 20.0
+illum 2

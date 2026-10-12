@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.10">
+  <model name="modular_pipe_combined_02">
+    <static>true</static>
+    <model name="part_01_left_elbow">
+      <pose>-5.9228 0 0 0 0 3.141592653589793</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="left_elbow_visual">
+          <pose>-2.9542 0.7942 1.4344 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/part_01_left_elbow.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <pbr>
+              <metal>
+                <albedo_map>materials/textures/albedo.png</albedo_map>
+                <normal_map type="tangent">materials/textures/normal.png</normal_map>
+                <roughness_map>materials/textures/roughness.png</roughness_map>
+                <metalness_map>materials/textures/metalness.png</metalness_map>
+                <roughness>1</roughness>
+                <metalness>1</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="left_elbow_collision">
+          <pose>-2.9542 0.7942 1.4344 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/part_01_left_elbow.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+        <label>50</label>
+      </plugin>
+    </model>
+    <model name="part_02_coupling_pipe">
+      <pose>-2.6570 0 1.1324 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="coupling_pipe_visual">
+          <pose>-2.9286 2.2945 0.3020 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/part_02_coupling_pipe.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <pbr>
+              <metal>
+                <albedo_map>materials/textures/albedo.png</albedo_map>
+                <normal_map type="tangent">materials/textures/normal.png</normal_map>
+                <roughness_map>materials/textures/roughness.png</roughness_map>
+                <metalness_map>materials/textures/metalness.png</metalness_map>
+                <roughness>1</roughness>
+                <metalness>1</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="coupling_pipe_collision">
+          <pose>-2.9286 2.2945 0.3020 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/part_02_coupling_pipe.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+        <label>10</label>
+      </plugin>
+    </model>
+    <model name="part_03_valve">
+      <pose>-0.0650 0 1.13245 0 0 -1.5707963267948966</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="valve_visual">
+          <pose>5.3203 2.4348 1.3394 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/part_03_valve.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <pbr>
+              <metal>
+                <albedo_map>materials/textures/albedo.png</albedo_map>
+                <normal_map type="tangent">materials/textures/normal.png</normal_map>
+                <roughness_map>materials/textures/roughness.png</roughness_map>
+                <metalness_map>materials/textures/metalness.png</metalness_map>
+                <roughness>1</roughness>
+                <metalness>1</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="valve_collision">
+          <pose>5.3203 2.4348 1.3394 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/part_03_valve.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+        <label>20</label>
+      </plugin>
+    </model>
+    <model name="part_04_straight_pipe">
+      <pose>2.5920 0 1.23442 0 0 -1.5707963267948966</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="straight_pipe_visual">
+          <pose>7.6498 1.1632 1.2374 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/part_04_straight_pipe.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <pbr>
+              <metal>
+                <albedo_map>materials/textures/albedo.png</albedo_map>
+                <normal_map type="tangent">materials/textures/normal.png</normal_map>
+                <roughness_map>materials/textures/roughness.png</roughness_map>
+                <metalness_map>materials/textures/metalness.png</metalness_map>
+                <roughness>1</roughness>
+                <metalness>1</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="straight_pipe_collision">
+          <pose>7.6498 1.1632 1.2374 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/part_04_straight_pipe.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+        <label>10</label>
+      </plugin>
+    </model>
+    <model name="part_05_right_elbow">
+      <pose>5.9228 0 0 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="right_elbow_visual">
+          <pose>-2.9542 0.7942 1.4344 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/part_05_right_elbow.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <pbr>
+              <metal>
+                <albedo_map>materials/textures/albedo.png</albedo_map>
+                <normal_map type="tangent">materials/textures/normal.png</normal_map>
+                <roughness_map>materials/textures/roughness.png</roughness_map>
+                <metalness_map>materials/textures/metalness.png</metalness_map>
+                <roughness>1</roughness>
+                <metalness>1</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="right_elbow_collision">
+          <pose>-2.9542 0.7942 1.4344 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/part_05_right_elbow.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+        <label>50</label>
+      </plugin>
+    </model>
+    <model name="support_01">
+      <pose>-4.35 0 -0.0062 0 0 1.5707963267948966</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="support_01_visual">
+          <pose>-3.8284 -0.5567 1.4344 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/support_01.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <pbr>
+              <metal>
+                <albedo_map>materials/textures/albedo.png</albedo_map>
+                <normal_map type="tangent">materials/textures/normal.png</normal_map>
+                <roughness_map>materials/textures/roughness.png</roughness_map>
+                <metalness_map>materials/textures/metalness.png</metalness_map>
+                <roughness>1</roughness>
+                <metalness>1</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="support_01_collision">
+          <pose>-3.8284 -0.5567 1.4344 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/support_01.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+        <label>30</label>
+      </plugin>
+    </model>
+    <model name="support_02">
+      <pose>-1.65 0 -0.0062 0 0 1.5707963267948966</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="support_02_visual">
+          <pose>-3.8284 -0.5567 1.4344 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/support_02.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <pbr>
+              <metal>
+                <albedo_map>materials/textures/albedo.png</albedo_map>
+                <normal_map type="tangent">materials/textures/normal.png</normal_map>
+                <roughness_map>materials/textures/roughness.png</roughness_map>
+                <metalness_map>materials/textures/metalness.png</metalness_map>
+                <roughness>1</roughness>
+                <metalness>1</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="support_02_collision">
+          <pose>-3.8284 -0.5567 1.4344 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/support_02.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+        <label>30</label>
+      </plugin>
+    </model>
+    <model name="support_03">
+      <pose>1.65 0 -0.0062 0 0 1.5707963267948966</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="support_03_visual">
+          <pose>-3.8284 -0.5567 1.4344 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/support_03.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <pbr>
+              <metal>
+                <albedo_map>materials/textures/albedo.png</albedo_map>
+                <normal_map type="tangent">materials/textures/normal.png</normal_map>
+                <roughness_map>materials/textures/roughness.png</roughness_map>
+                <metalness_map>materials/textures/metalness.png</metalness_map>
+                <roughness>1</roughness>
+                <metalness>1</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="support_03_collision">
+          <pose>-3.8284 -0.5567 1.4344 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/support_03.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+        <label>30</label>
+      </plugin>
+    </model>
+    <model name="support_04">
+      <pose>4.35 0 -0.0062 0 0 1.5707963267948966</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="support_04_visual">
+          <pose>-3.8284 -0.5567 1.4344 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/support_04.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <pbr>
+              <metal>
+                <albedo_map>materials/textures/albedo.png</albedo_map>
+                <normal_map type="tangent">materials/textures/normal.png</normal_map>
+                <roughness_map>materials/textures/roughness.png</roughness_map>
+                <metalness_map>materials/textures/metalness.png</metalness_map>
+                <roughness>1</roughness>
+                <metalness>1</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="support_04_collision">
+          <pose>-3.8284 -0.5567 1.4344 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/support_04.obj</uri>
+              <scale>2 2 2</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+      <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+        <label>30</label>
+      </plugin>
+    </model>
+  </model>
+</sdf>

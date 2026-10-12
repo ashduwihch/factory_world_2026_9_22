@@ -1,0 +1,11 @@
+{
+  "triangles": 13405,
+  "visuals": 12,
+  "dimensions_m": [
+    25.002784729003906,
+    26.49997615814209,
+    8.5500009059906
+  ],
+  "source": "WSE_11_LOD0",
+  "texture_resolution": 2048
+}

@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.9">
+  <model name="wse11">
+    <static>true</static>
+    <link name="building_link">
+      <visual name="visual_00">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_00.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wse11_albedo.png</albedo_map>
+              <normal_map type="tangent">materials/textures/wse11_normal.png</normal_map>
+              <roughness_map>materials/textures/wse11_roughness.png</roughness_map>
+              <metalness_map>materials/textures/wse11_metalness.png</metalness_map>
+              <emissive_map>materials/textures/wse11_emission.png</emissive_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+      </visual>
+      <visual name="visual_01">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_01.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wse11_albedo.png</albedo_map>
+              <normal_map type="tangent">materials/textures/wse11_normal.png</normal_map>
+              <roughness_map>materials/textures/wse11_roughness.png</roughness_map>
+              <metalness_map>materials/textures/wse11_metalness.png</metalness_map>
+              <emissive_map>materials/textures/wse11_emission.png</emissive_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+      </visual>
+      <visual name="visual_02">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_02.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wse11_albedo.png</albedo_map>
+              <normal_map type="tangent">materials/textures/wse11_normal.png</normal_map>
+              <roughness_map>materials/textures/wse11_roughness.png</roughness_map>
+              <metalness_map>materials/textures/wse11_metalness.png</metalness_map>
+              <emissive_map>materials/textures/wse11_emission.png</emissive_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+      </visual>
+      <visual name="visual_03">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_03.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wse11_albedo.png</albedo_map>
+              <normal_map type="tangent">materials/textures/wse11_normal.png</normal_map>
+              <roughness_map>materials/textures/wse11_roughness.png</roughness_map>
+              <metalness_map>materials/textures/wse11_metalness.png</metalness_map>
+              <emissive_map>materials/textures/wse11_emission.png</emissive_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+      </visual>
+      <visual name="visual_04">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_04.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wse11_albedo.png</albedo_map>
+              <normal_map type="tangent">materials/textures/wse11_normal.png</normal_map>
+              <roughness_map>materials/textures/wse11_roughness.png</roughness_map>
+              <metalness_map>materials/textures/wse11_metalness.png</metalness_map>
+              <emissive_map>materials/textures/wse11_emission.png</emissive_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+        <transparency>0.25</transparency>
+      </visual>
+      <visual name="visual_05">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_05.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wse11_albedo.png</albedo_map>
+              <normal_map type="tangent">materials/textures/wse11_normal.png</normal_map>
+              <roughness_map>materials/textures/wse11_roughness.png</roughness_map>
+              <metalness_map>materials/textures/wse11_metalness.png</metalness_map>
+              <emissive_map>materials/textures/wse11_emission.png</emissive_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+      </visual>
+      <visual name="visual_06">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_06.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wse11_albedo.png</albedo_map>
+              <normal_map type="tangent">materials/textures/wse11_normal.png</normal_map>
+              <roughness_map>materials/textures/wse11_roughness.png</roughness_map>
+              <metalness_map>materials/textures/wse11_metalness.png</metalness_map>
+              <emissive_map>materials/textures/wse11_emission.png</emissive_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+      </visual>
+      <visual name="visual_07">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_07.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wse11_albedo.png</albedo_map>
+              <normal_map type="tangent">materials/textures/wse11_normal.png</normal_map>
+              <roughness_map>materials/textures/wse11_roughness.png</roughness_map>
+              <metalness_map>materials/textures/wse11_metalness.png</metalness_map>
+              <emissive_map>materials/textures/wse11_emission.png</emissive_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+      </visual>
+      <visual name="visual_08">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_08.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wse11_albedo.png</albedo_map>
+              <normal_map type="tangent">materials/textures/wse11_normal.png</normal_map>
+              <roughness_map>materials/textures/wse11_roughness.png</roughness_map>
+              <metalness_map>materials/textures/wse11_metalness.png</metalness_map>
+              <emissive_map>materials/textures/wse11_emission.png</emissive_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+        <transparency>0.25</transparency>
+      </visual>
+      <visual name="visual_09">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_09.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wse11_albedo.png</albedo_map>
+              <normal_map type="tangent">materials/textures/wse11_normal.png</normal_map>
+              <roughness_map>materials/textures/wse11_roughness.png</roughness_map>
+              <metalness_map>materials/textures/wse11_metalness.png</metalness_map>
+              <emissive_map>materials/textures/wse11_emission.png</emissive_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+      </visual>
+      <visual name="visual_10">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_10.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wse11_albedo.png</albedo_map>
+              <normal_map type="tangent">materials/textures/wse11_normal.png</normal_map>
+              <roughness_map>materials/textures/wse11_roughness.png</roughness_map>
+              <metalness_map>materials/textures/wse11_metalness.png</metalness_map>
+              <emissive_map>materials/textures/wse11_emission.png</emissive_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+      </visual>
+      <visual name="visual_11">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_11.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wse11_albedo.png</albedo_map>
+              <normal_map type="tangent">materials/textures/wse11_normal.png</normal_map>
+              <roughness_map>materials/textures/wse11_roughness.png</roughness_map>
+              <metalness_map>materials/textures/wse11_metalness.png</metalness_map>
+              <emissive_map>materials/textures/wse11_emission.png</emissive_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+      </visual>
+      <collision name="building_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/collision.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

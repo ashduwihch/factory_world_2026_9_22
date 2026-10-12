@@ -1,0 +1,15 @@
+{
+  "model": "industrial_yard_surface",
+  "classes": {
+    "ground": 1,
+    "road": 40,
+    "concrete": 41,
+    "road_marking": 42,
+    "vegetation_ground": 60
+  },
+  "sources": {
+    "asphalt_02": "Poly Haven, CC0",
+    "concrete_pavement_02": "Poly Haven, CC0",
+    "sparse_grass": "Poly Haven, CC0"
+  }
+}

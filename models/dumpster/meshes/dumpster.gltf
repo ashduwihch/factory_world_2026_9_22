@@ -1,0 +1,248 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.2.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_pbrSpecularGlossiness",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1146,
+            "type": "VEC3",
+            "max": [
+                133.00509643554688,
+                66.54276275634766,
+                94.45742797851563
+            ],
+            "min": [
+                -133.00509643554688,
+                -66.54276275634766,
+                -8.806947708129883
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1146,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1146,
+            "type": "VEC3",
+            "max": [
+                0.9832733869552612,
+                0.9895678758621216,
+                1.1920900533368695e-7
+            ],
+            "min": [
+                0.010414239950478077,
+                0.02091538906097412,
+                -2.3841900542720398e-7
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 1146,
+            "type": "SCALAR",
+            "max": [
+                1145
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 45840,
+            "uri": "dumpster.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 13752,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 13752,
+            "byteLength": 13752,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 27504,
+            "byteLength": 13752,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 41256,
+            "byteLength": 4584,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "../materials/textures/Dumpster_Diffuse.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "_1_-_Default",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.11999999731779099,
+                "roughnessFactor": 0.6800000071525574
+            },
+            "extensions": {
+                "KHR_materials_pbrSpecularGlossiness": {
+                    "specularFactor": [
+                        0.8999999761581421,
+                        0.8999999761581421,
+                        0.8999999761581421
+                    ],
+                    "glossinessFactor": 0.3199999928474426,
+                    "diffuseTexture": {
+                        "index": 0
+                    }
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "geom-Object001",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "MaxScene",
+            "matrix": [
+                0.02539999969303608,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.02539999969303608,
+                0.0,
+                0.0,
+                0.02539999969303608,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                1,
+                2
+            ]
+        },
+        {
+            "name": "$ColladaAutoName$_0"
+        },
+        {
+            "name": "node-Object001",
+            "matrix": [
+                0.2471926063299179,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3027847111225128,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.45071789622306826,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                3
+            ]
+        },
+        {
+            "name": "$ColladaAutoName$_1",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                8.726730346679688,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}

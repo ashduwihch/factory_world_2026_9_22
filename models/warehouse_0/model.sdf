@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.9">
+  <model name="warehouse_0">
+    <static>true</static>
+    <link name="building_link">
+      <visual name="doorBolt_geo">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_00.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/door_albedo.png</albedo_map>
+              <roughness_map>materials/textures/door_roughness.png</roughness_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+              <metalness_map>materials/textures/door_metalness.png</metalness_map>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+      </visual>
+      <collision name="collision_0">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_00.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="door_geo">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_01.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/door_albedo.png</albedo_map>
+              <roughness_map>materials/textures/door_roughness.png</roughness_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+              <metalness_map>materials/textures/door_metalness.png</metalness_map>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+      </visual>
+      <collision name="collision_1">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_01.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="handleMovable_geo">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_02.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/door_albedo.png</albedo_map>
+              <roughness_map>materials/textures/door_roughness.png</roughness_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+              <metalness_map>materials/textures/door_metalness.png</metalness_map>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+      </visual>
+      <collision name="collision_2">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_02.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="hingesWall_geo">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_03.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/door_albedo.png</albedo_map>
+              <roughness_map>materials/textures/door_roughness.png</roughness_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+              <metalness_map>materials/textures/door_metalness.png</metalness_map>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+      </visual>
+      <collision name="collision_3">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_03.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="warehouseBase_geo">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_04.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/building_albedo.png</albedo_map>
+              <roughness_map>materials/textures/building_roughness.png</roughness_map>
+              <metalness>0.05</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+          <double_sided>true</double_sided>
+        </material>
+      </visual>
+      <collision name="collision_4">
+        <geometry>
+          <mesh>
+            <uri>meshes/part_04.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

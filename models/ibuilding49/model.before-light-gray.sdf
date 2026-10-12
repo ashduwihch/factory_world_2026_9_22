@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.9">
+  <model name="ibuilding49">
+    <static>true</static>
+    <link name="building_link">
+      <pose>0 0 0 1.5707963267948966 0 0</pose>
+      <visual name="building_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/IBuilding49.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/gazebo/IBuilding49_BaseColor.png</albedo_map>
+              <normal_map type="tangent">materials/textures/gazebo/IBuilding49_Normal.png</normal_map>
+              <roughness_map>materials/textures/gazebo/IBuilding49_Roughness.png</roughness_map>
+              <metalness_map>materials/textures/gazebo/IBuilding49_Metallic.png</metalness_map>
+              <metalness>1</metalness>
+              <roughness>1</roughness>
+            </metal>
+          </pbr>
+          <emissive>0.025 0.025 0.025 1</emissive>
+        </material>
+      </visual>
+      <collision name="building_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/IBuilding49.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

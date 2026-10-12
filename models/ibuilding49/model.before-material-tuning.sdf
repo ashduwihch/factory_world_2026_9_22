@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="ibuilding49">
+    <static>true</static>
+    <link name="building_link">
+      <!-- COLLADA loader converts centimeters to meters, but retains Y-up. -->
+      <pose>0 0 0 1.5707963267948966 0 0</pose>
+      <visual name="building_visual">
+        <geometry>
+          <mesh><uri>meshes/IBuilding49.dae</uri><scale>1 1 1</scale></mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/IBuilding49_BaseColor.png</albedo_map>
+              <normal_map type="tangent">materials/textures/IBuilding49_Normal.png</normal_map>
+              <roughness_map>materials/textures/IBuilding49_Roughness.png</roughness_map>
+              <metalness_map>materials/textures/IBuilding49_Metallic.png</metalness_map>
+              <metalness>0.2</metalness>
+              <roughness>0.7</roughness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <collision name="building_collision">
+        <geometry>
+          <mesh><uri>meshes/IBuilding49.dae</uri><scale>1 1 1</scale></mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

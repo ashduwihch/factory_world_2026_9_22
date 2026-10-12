@@ -1,0 +1,679 @@
+{
+  "classes": {
+    "vehicle": 70,
+    "vegetation": 60,
+    "lighting": 80,
+    "traffic_sign": 81,
+    "waste": 82,
+    "safety": 83,
+    "parking": 84,
+    "cargo": 85
+  },
+  "instances": [
+    {
+      "name": "oak_tree_00",
+      "model": "oak_tree",
+      "pose": [
+        -29,
+        -20,
+        0.02,
+        0,
+        0,
+        0.2
+      ],
+      "category": "vegetation"
+    },
+    {
+      "name": "oak_tree_01",
+      "model": "oak_tree",
+      "pose": [
+        -29,
+        -7,
+        0.02,
+        0,
+        0,
+        1.1
+      ],
+      "category": "vegetation"
+    },
+    {
+      "name": "oak_tree_02",
+      "model": "oak_tree",
+      "pose": [
+        -29,
+        6,
+        0.02,
+        0,
+        0,
+        2.0
+      ],
+      "category": "vegetation"
+    },
+    {
+      "name": "oak_tree_03",
+      "model": "oak_tree",
+      "pose": [
+        -29,
+        19,
+        0.02,
+        0,
+        0,
+        2.8
+      ],
+      "category": "vegetation"
+    },
+    {
+      "name": "oak_tree_04",
+      "model": "oak_tree",
+      "pose": [
+        40,
+        -20,
+        0.02,
+        0,
+        0,
+        0.7
+      ],
+      "category": "vegetation"
+    },
+    {
+      "name": "oak_tree_05",
+      "model": "oak_tree",
+      "pose": [
+        40,
+        -7,
+        0.02,
+        0,
+        0,
+        1.7
+      ],
+      "category": "vegetation"
+    },
+    {
+      "name": "oak_tree_06",
+      "model": "oak_tree",
+      "pose": [
+        40,
+        6,
+        0.02,
+        0,
+        0,
+        2.5
+      ],
+      "category": "vegetation"
+    },
+    {
+      "name": "oak_tree_07",
+      "model": "oak_tree",
+      "pose": [
+        40,
+        19,
+        0.02,
+        0,
+        0,
+        0.1
+      ],
+      "category": "vegetation"
+    },
+    {
+      "name": "oak_tree_08",
+      "model": "oak_tree",
+      "pose": [
+        -20,
+        31.5,
+        0.02,
+        0,
+        0,
+        1.0
+      ],
+      "category": "vegetation"
+    },
+    {
+      "name": "oak_tree_09",
+      "model": "oak_tree",
+      "pose": [
+        -10,
+        31.5,
+        0.02,
+        0,
+        0,
+        2.3
+      ],
+      "category": "vegetation"
+    },
+    {
+      "name": "oak_tree_10",
+      "model": "oak_tree",
+      "pose": [
+        20,
+        31.5,
+        0.02,
+        0,
+        0,
+        0.4
+      ],
+      "category": "vegetation"
+    },
+    {
+      "name": "oak_tree_11",
+      "model": "oak_tree",
+      "pose": [
+        30,
+        31.5,
+        0.02,
+        0,
+        0,
+        1.9
+      ],
+      "category": "vegetation"
+    },
+    {
+      "name": "pine_tree_00",
+      "model": "pine_tree",
+      "pose": [
+        -20,
+        -30.5,
+        0.02,
+        0,
+        0,
+        0.0
+      ],
+      "category": "vegetation"
+    },
+    {
+      "name": "pine_tree_01",
+      "model": "pine_tree",
+      "pose": [
+        -10,
+        -30.5,
+        0.02,
+        0,
+        0,
+        1.4
+      ],
+      "category": "vegetation"
+    },
+    {
+      "name": "pine_tree_02",
+      "model": "pine_tree",
+      "pose": [
+        22,
+        -30.5,
+        0.02,
+        0,
+        0,
+        2.2
+      ],
+      "category": "vegetation"
+    },
+    {
+      "name": "pine_tree_03",
+      "model": "pine_tree",
+      "pose": [
+        32,
+        -30.5,
+        0.02,
+        0,
+        0,
+        0.8
+      ],
+      "category": "vegetation"
+    },
+    {
+      "name": "staff_pickup",
+      "model": "pickup",
+      "pose": [
+        -18.5,
+        1.5,
+        0.03,
+        0,
+        0,
+        0.0
+      ],
+      "category": "vehicle"
+    },
+    {
+      "name": "staff_prius",
+      "model": "prius_hybrid",
+      "pose": [
+        -18.5,
+        10.5,
+        0.03,
+        0,
+        0,
+        1.570796
+      ],
+      "category": "vehicle"
+    },
+    {
+      "name": "delivery_pickup",
+      "model": "pickup",
+      "pose": [
+        31.0,
+        -24.5,
+        0.03,
+        0,
+        0,
+        3.141593
+      ],
+      "category": "vehicle"
+    },
+    {
+      "name": "loading_forklift",
+      "model": "forklift",
+      "pose": [
+        13.4,
+        -24.5,
+        0.03,
+        0,
+        0,
+        -1.570796
+      ],
+      "category": "vehicle"
+    },
+    {
+      "name": "lamp_post_00",
+      "model": "lamp_post",
+      "pose": [
+        -26,
+        -20,
+        0.02,
+        0,
+        0,
+        0
+      ],
+      "category": "lighting"
+    },
+    {
+      "name": "lamp_post_01",
+      "model": "lamp_post",
+      "pose": [
+        -26,
+        20,
+        0.02,
+        0,
+        0,
+        3.141593
+      ],
+      "category": "lighting"
+    },
+    {
+      "name": "lamp_post_02",
+      "model": "lamp_post",
+      "pose": [
+        37,
+        -20,
+        0.02,
+        0,
+        0,
+        0
+      ],
+      "category": "lighting"
+    },
+    {
+      "name": "lamp_post_03",
+      "model": "lamp_post",
+      "pose": [
+        37,
+        20,
+        0.02,
+        0,
+        0,
+        3.141593
+      ],
+      "category": "lighting"
+    },
+    {
+      "name": "lamp_post_04",
+      "model": "lamp_post",
+      "pose": [
+        -12,
+        -27.2,
+        0.02,
+        0,
+        0,
+        1.570796
+      ],
+      "category": "lighting"
+    },
+    {
+      "name": "lamp_post_05",
+      "model": "lamp_post",
+      "pose": [
+        21,
+        -27.2,
+        0.02,
+        0,
+        0,
+        1.570796
+      ],
+      "category": "lighting"
+    },
+    {
+      "name": "lamp_post_06",
+      "model": "lamp_post",
+      "pose": [
+        -12,
+        27.3,
+        0.02,
+        0,
+        0,
+        -1.570796
+      ],
+      "category": "lighting"
+    },
+    {
+      "name": "lamp_post_07",
+      "model": "lamp_post",
+      "pose": [
+        21,
+        27.3,
+        0.02,
+        0,
+        0,
+        -1.570796
+      ],
+      "category": "lighting"
+    },
+    {
+      "name": "entrance_stop_sign",
+      "model": "stop_sign",
+      "pose": [
+        -0.4,
+        -31.8,
+        0.02,
+        0,
+        0,
+        0.0
+      ],
+      "category": "traffic_sign"
+    },
+    {
+      "name": "entrance_speed_sign",
+      "model": "speed_limit_sign",
+      "pose": [
+        11.2,
+        -31.8,
+        0.02,
+        0,
+        0,
+        3.141593
+      ],
+      "category": "traffic_sign"
+    },
+    {
+      "name": "west_dumpster",
+      "model": "dumpster",
+      "pose": [
+        -14.0,
+        -20.5,
+        0.03,
+        0,
+        0,
+        1.570796
+      ],
+      "category": "waste"
+    },
+    {
+      "name": "east_dumpster",
+      "model": "dumpster",
+      "pose": [
+        33.0,
+        17.0,
+        0.03,
+        0,
+        0,
+        0.0
+      ],
+      "category": "waste"
+    },
+    {
+      "name": "tank_barrier_0",
+      "model": "jersey_barrier",
+      "pose": [
+        32.0,
+        15.5,
+        0.03,
+        0,
+        0,
+        1.570796
+      ],
+      "category": "safety"
+    },
+    {
+      "name": "tank_barrier_1",
+      "model": "jersey_barrier",
+      "pose": [
+        32.0,
+        18.5,
+        0.03,
+        0,
+        0,
+        1.570796
+      ],
+      "category": "safety"
+    },
+    {
+      "name": "tank_barrier_2",
+      "model": "jersey_barrier",
+      "pose": [
+        32.0,
+        21.5,
+        0.03,
+        0,
+        0,
+        1.570796
+      ],
+      "category": "safety"
+    },
+    {
+      "name": "loading_cone_0",
+      "model": "construction_cone",
+      "pose": [
+        9.7,
+        -23.1,
+        0.03,
+        0,
+        0,
+        0.0
+      ],
+      "category": "safety"
+    },
+    {
+      "name": "loading_cone_1",
+      "model": "construction_cone",
+      "pose": [
+        9.7,
+        -25.9,
+        0.03,
+        0,
+        0,
+        0.0
+      ],
+      "category": "safety"
+    },
+    {
+      "name": "loading_cone_2",
+      "model": "construction_cone",
+      "pose": [
+        17.6,
+        -23.1,
+        0.03,
+        0,
+        0,
+        0.0
+      ],
+      "category": "safety"
+    },
+    {
+      "name": "loading_cone_3",
+      "model": "construction_cone",
+      "pose": [
+        17.6,
+        -25.9,
+        0.03,
+        0,
+        0,
+        0.0
+      ],
+      "category": "safety"
+    },
+    {
+      "name": "orange_barrier_0",
+      "model": "drc_practice_orange_jersey_barrier",
+      "pose": [
+        31.2,
+        18.0,
+        0.03,
+        0,
+        0,
+        1.570796
+      ],
+      "category": "safety"
+    },
+    {
+      "name": "orange_barrier_1",
+      "model": "drc_practice_orange_jersey_barrier",
+      "pose": [
+        31.2,
+        20.0,
+        0.03,
+        0,
+        0,
+        1.570796
+      ],
+      "category": "safety"
+    },
+    {
+      "name": "parking_block_0",
+      "model": "drc_practice_yellow_parking_block",
+      "pose": [
+        -15.9,
+        -1.5,
+        0.03,
+        0,
+        0,
+        1.570796
+      ],
+      "category": "parking"
+    },
+    {
+      "name": "parking_block_1",
+      "model": "drc_practice_yellow_parking_block",
+      "pose": [
+        -15.9,
+        1.5,
+        0.03,
+        0,
+        0,
+        1.570796
+      ],
+      "category": "parking"
+    },
+    {
+      "name": "parking_block_2",
+      "model": "drc_practice_yellow_parking_block",
+      "pose": [
+        -15.9,
+        4.5,
+        0.03,
+        0,
+        0,
+        1.570796
+      ],
+      "category": "parking"
+    },
+    {
+      "name": "parking_block_3",
+      "model": "drc_practice_yellow_parking_block",
+      "pose": [
+        -15.9,
+        7.5,
+        0.03,
+        0,
+        0,
+        1.570796
+      ],
+      "category": "parking"
+    },
+    {
+      "name": "parking_block_4",
+      "model": "drc_practice_yellow_parking_block",
+      "pose": [
+        -15.9,
+        10.5,
+        0.03,
+        0,
+        0,
+        1.570796
+      ],
+      "category": "parking"
+    },
+    {
+      "name": "parking_block_5",
+      "model": "drc_practice_yellow_parking_block",
+      "pose": [
+        -15.9,
+        13.5,
+        0.03,
+        0,
+        0,
+        1.570796
+      ],
+      "category": "parking"
+    },
+    {
+      "name": "parking_block_6",
+      "model": "drc_practice_yellow_parking_block",
+      "pose": [
+        -15.9,
+        16.5,
+        0.03,
+        0,
+        0,
+        1.570796
+      ],
+      "category": "parking"
+    },
+    {
+      "name": "supply_box_0",
+      "model": "cardboard_box",
+      "pose": [
+        -14.0,
+        20.0,
+        0.03,
+        0,
+        0,
+        0.1
+      ],
+      "category": "cargo"
+    },
+    {
+      "name": "supply_box_1",
+      "model": "cardboard_box",
+      "pose": [
+        -13.3,
+        20.1,
+        0.03,
+        0,
+        0,
+        -0.2
+      ],
+      "category": "cargo"
+    },
+    {
+      "name": "supply_box_2",
+      "model": "cardboard_box",
+      "pose": [
+        -13.7,
+        19.4,
+        0.03,
+        0,
+        0,
+        0.4
+      ],
+      "category": "cargo"
+    }
+  ],
+  "source": "Open Robotics Gazebo models; original model.config author metadata retained",
+  "license": "CC BY 3.0"
+}

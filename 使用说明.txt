@@ -1,0 +1,21 @@
+factory_world_2026.9.22 场景包
+
+目录内容：
+  worlds/factory_world_2026.9.22.sdf   场景文件
+  models/                               场景所需的全部模型，放到自己的GAZEBO模型目录下即可
+
+使用方法：
+
+1. 仅用 Gazebo 打开场景：
+
+   gz sim worlds/factory_world_2026.9.22.sdf
+
+2. 使用 PX4 + X500 MID-360 启动：
+
+   cd ~/PX4-Autopilot/launch
+   ros2 launch ./mid360_posix_sitl.launch.py   （记得修改这个py中的世界路径）
+
+
+注意：
+  - 使用 MID-360 时，需要提前安装并编译 MID-360 Gazebo Harmonic 插件。
+
